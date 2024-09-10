@@ -7,7 +7,7 @@ Welcome. In this kata, you are asked to square every digit of a number and conca
 For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1. (81-1-1-81)
 '''
 
-def squareEveryDigit(num):
+def square_every_digit(num):
     num_str = str(num)
     digits = [int(digit) for digit in num_str]
     squares = [str(digit ** 2) for digit in digits]
@@ -16,7 +16,7 @@ def squareEveryDigit(num):
 
 if __name__ == '__main__':
     num = 9119
-    print(squareEveryDigit(num))
+    print(square_every_digit(num))
     
 
 '''
