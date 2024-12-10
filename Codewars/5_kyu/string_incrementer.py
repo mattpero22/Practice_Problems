@@ -55,5 +55,5 @@ def increment_string(strng):
     if tail == "": return strng+"1"
     return head + str(int(tail) + 1).zfill(len(tail))
 
-    totally forgot about rstrip and such
+    totally forgot about rstrip and such 
 '''
