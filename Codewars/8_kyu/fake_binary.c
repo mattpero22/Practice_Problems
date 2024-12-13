@@ -32,7 +32,7 @@ void fakeBin(const char *digits, char *binary) {
 Results: COMPLETED  14 minutes
 
 Notes:
-    - C is trickier than I remember. Had to look up the condition for my for loop (digits[i] != '\0')
+    - C is trickier than I remember. Had to look up the condition for my for loop (digits[i] != '\0') as it couldnt use strlen like I initially thought
         -- this means that we go until we hit a null character in our input digit string
 
 */
